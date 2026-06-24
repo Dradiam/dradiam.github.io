@@ -1,0 +1,60 @@
+{
+  "docMetadata" : {
+    "docName" : "projects",
+    "docDateCreated" : "null",
+    "docCreatedBy" : "dradiam"
+  },
+  "docContent" : [
+    {
+      "tag" : "div",
+      "className" : "card",
+      "content": [
+        {
+          "tag" : "div",
+          "className" : "card-title",
+          "content" : {
+            "tag" : "h4",
+            "content": "GitHub Pages"
+          }
+        },
+        {
+          "tag" : "div",
+          "className" :"card-middle-row",
+          "content" : [
+            {
+              "tag" : "div",
+              "className" :"field-badges",
+              "content" : [
+                {
+                  "tag" : "div",
+                  "className" :"badge",
+                  "content" : "HTML"
+                },
+                {
+                  "tag" : "div",
+                  "className" :"badge",
+                  "content" : "CSS"
+                },
+                {
+                  "tag" : "div",
+                  "className" :"badge",
+                  "content" : "JS"
+                }
+              ]
+            },
+            {
+              "tag" : "div",
+              "className" :"field-text",
+              "content" : "April 2026"
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" :"card-description",
+          "content" : "You are here."
+        }
+      ]
+    }
+  ]
+}

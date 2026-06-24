@@ -44,37 +44,37 @@
       {
         "menuItemID": "menuToDoList",
         "menuItemLabel": "To-do List",
-        "menuItemType": "media",
+        "menuItemType": "txt",
         "menuItemContent": "content/main/todolist.txt"
       },
       {
         "menuItemID": "menuProjects",
         "menuItemLabel": "Projects",
-        "menuItemType": "media",
+        "menuItemType": "txt",
         "menuItemContent": "content/main/projects.txt"
       },
       {
         "menuItemID": "menuExperiences",
         "menuItemLabel": "Work Experience",
-        "menuItemType": "media",
+        "menuItemType": "txt",
         "menuItemContent": "content/main/workexperience.txt"
       },
       {
         "menuItemID": "menuCertifications",
         "menuItemLabel": "Certifications",
-        "menuItemType": "media",
+        "menuItemType": "txt",
         "menuItemContent": "content/main/certifications.txt"
       },
       {
         "menuItemID": "menuSkills",
         "menuItemLabel": "Skills",
-        "menuItemType": "media",
+        "menuItemType": "txt",
         "menuItemContent": "content/main/skills.txt"
       },
       {
         "menuItemID": "menuContactInfo",
         "menuItemLabel": "Contact Me",
-        "menuItemType": "media",
+        "menuItemType": "txt",
         "menuItemContent": "content/main/contactMe.txt"
       }
     ]

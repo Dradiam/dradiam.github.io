@@ -1,5 +1,4 @@
-
-    @import url('root.css');
+  @import url('root.css');
 
     * {
 
@@ -228,6 +227,79 @@
         animation: caretBlink 1s steps(1) infinite;
 
     }
+    
+    .card {
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 12px;
+
+        margin-bottom: 32px;
+
+        color: var(--fgDefault);
+
+        box-sizing: border-box;
+
+        /* border: 1px solid var(--fgDefault); */
+
+    }
+
+    .card:last-child {
+
+        margin-bottom: 0;
+
+    }
+
+
+    .card-title {
+
+        margin: 0;
+
+    }
+
+
+    .card-middle-row {
+
+        display: flex;
+        flex-direction: row;
+        
+        width: 100%;
+        
+    }
+
+    .field-badges {
+
+        flex: 0 0 50%;
+        display: flex;
+
+        justify-content: flex-start;
+        gap: 6px;
+
+    }
+
+    .field-text {
+
+        flex: 0 0 50%;
+        text-align: right;
+
+    }
+
+    .card-description {
+
+        margin: 0;
+
+    }
+
+    .badge {
+
+        background: var(--fgDefault);
+        color: var(--bgDefault);
+        padding: 2px 4px;
+        border-radius: 2px;
+        font-size: 0.8rem;
+
+    }
 
     @keyframes caretBlink {
 
@@ -240,6 +312,3 @@
         }
 
     }
-
-
-

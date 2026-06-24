@@ -14,7 +14,7 @@
           "className" : "card-title",
           "content" : {
             "tag" : "h4",
-            "content": "GitHub Pages"
+            "content": "GitHub Pages (you are here)"
           }
         },
         {
@@ -48,11 +48,6 @@
               "content" : "April 2026"
             }
           ]
-        },
-        {
-          "tag" : "div",
-          "className" :"card-description",
-          "content" : "You are here."
         }
       ]
     }

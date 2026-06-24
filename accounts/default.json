@@ -52,7 +52,7 @@
       {
         "menuItemID": "defaultAbout",
         "menuItemLabel": "About",
-        "menuItemType": "media",
+        "menuItemType": "txt",
         "menuItemContent": "content/default/default.txt"
       },
       {
@@ -63,13 +63,13 @@
           {
             "menuItemID": "defaultFS001",
             "menuItemLabel": "ozy.txt",
-            "menuItemType": "media",
+            "menuItemType": "txt",
             "menuItemContent": "content/default/ozy.txt"
           },
           {
             "menuItemID": "defaultFS001",
             "menuItemLabel": "smrknd.txt",
-            "menuItemType": "media",
+            "menuItemType": "txt",
             "menuItemContent": "content/default/smrknd.txt"
           }
         ]

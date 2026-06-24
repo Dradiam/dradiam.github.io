@@ -50,8 +50,8 @@
       {
         "menuItemID": "menuProjects",
         "menuItemLabel": "Projects",
-        "menuItemType": "txt",
-        "menuItemContent": "content/main/projects.txt"
+        "menuItemType": "html",
+        "menuItemContent": "content/main/projects.json"
       },
       {
         "menuItemID": "menuExperiences",

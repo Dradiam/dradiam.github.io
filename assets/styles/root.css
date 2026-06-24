@@ -1,0 +1,27 @@
+
+    :root {
+
+        --green: rgb(74, 197, 95);
+        --teal: rgb(180, 211, 137);
+        --amber: rgb(223, 169, 33);
+        --blue: rgb(33, 169, 223);
+        --white: rgb(255, 255, 255);
+        --custom: rgb(227, 67, 67);
+
+        --moderne: 'moderne', sans-serif;
+        --classique: 'classique';
+
+        --fgDefault: var(--teal);
+        --bgDefault: hsl(from var(--fgDefault) h s 3%);
+
+    }
+
+    @font-face {
+        font-family: 'classique';
+        src: url('../fonts/Consolas.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'moderne';
+        src: url('../fonts/Noto.ttf') format('truetype');
+    }

@@ -5,9 +5,10 @@ COMPLETED
 - Build data binding system
 - Add in temporary slash ("/") switch function
 - Create widgets
+- Add HTML support functions for content rendering
+- Add image support functions for content rendering
 
 TO-DO LIST
-- Add HTML support functions for content rendering
 - Build custom CSS support (themes)
-  - Implement settings primarily through user.json
-- Create basic password protection 
+  - Implement settings primarily through user.json in accounts
+- Create basic security protocols

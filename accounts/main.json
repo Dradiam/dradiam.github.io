@@ -9,7 +9,7 @@
     "widgetList": [
       { "type": "userDetails", "id": "nameDisplay" },
       { "type": "userDetails", "id": "roleDisplay" },
-      null,
+      { "type": "clockWidget", "id": "dateDisplay" }
       { "type": "clockWidget", "id": "clockDisplay" }
     ],
     "userDetails": {
@@ -21,12 +21,14 @@
       }
     },
     "clockWidget": {
-      "clockDisplay": {
+      "dateDisplay": {
         "dayFormat" : "long",
-        "dateFormat": "long",
-        "dateSeparator": ".",
+        "dateFormat": "iso",
+        "widgetFormat" : ["dayFormat", "dateFormat"]
+      },
+      "clockDisplay": {
         "timeFormat": "HH:mm",
-        "widgetFormat" : ["dateFormat", "clockFormat"]
+        "widgetFormat" : ["clockFormat"]
       }
     }
   },

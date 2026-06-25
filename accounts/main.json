@@ -9,7 +9,7 @@
     "widgetList": [
       { "type": "userDetails", "id": "nameDisplay" },
       { "type": "userDetails", "id": "roleDisplay" },
-      { "type": "clockWidget", "id": "dateDisplay" }
+      { "type": "clockWidget", "id": "dateDisplay" },
       { "type": "clockWidget", "id": "clockDisplay" }
     ],
     "userDetails": {

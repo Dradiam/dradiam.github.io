@@ -67,7 +67,7 @@
             "menuItemContent": "content/default/ozy.txt"
           },
           {
-            "menuItemID": "defaultFS001",
+            "menuItemID": "defaultFS002",
             "menuItemLabel": "smrknd.txt",
             "menuItemType": "txt",
             "menuItemContent": "content/default/smrknd.txt"

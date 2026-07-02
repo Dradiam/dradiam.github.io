@@ -39,10 +39,10 @@
     }
   },
   "themeSettings": {
-    "theme": "classique",
-    "font": "classique",
-    "colorScheme": "green",
-    "customRGB": ""
+    "themeType": "classique",
+    "fontType": "classique",
+    "colorValue": "green",
+    "customValue": ""
   },
   "fs": {
     "menuID": "menuMain",

@@ -1,0 +1,218 @@
+{
+  "docMetadata" : {
+    "docName" : "releasenotes",
+    "docDateCreated" : "null",
+    "docCreatedBy" : "dradiam"
+  },
+  "docContent" : 
+  [    
+    {
+      "tag" : "div",
+      "className" : "list-container",
+      "content" : [
+        {
+          "tag" : "div",
+          "className" : "row-header",
+          "content" : {
+            "tag" : "h4",
+            "content" : "V1.3 release notes"
+          }
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : {
+                "tag" : "div",
+                "className" : "badge",
+                "content" : "NEW"
+              }
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Added backend support (picasso.js) for CSS changes for themes unique to each account file"
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : {
+                "tag" : "div",
+                "className" : "badge",
+                "content" : "NEW"
+              }
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Added new fonts and color palettes, as well as a new list component that you can see here"
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : "-"
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Standardized global variables for certain CSS attributes to account for the new themes feature"
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : "-"
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Decoupled rendered elements from the main stylesheets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag" : "div",
+      "className" : "list-container",
+      "content" : [
+        {
+          "tag" : "div",
+          "className" : "row-header",
+          "content" : {
+            "tag" : "h4",
+            "content" : "V1.2 release notes"
+          }
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : "-"
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Added HTML support for the content rendering engine"
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : "-"
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Reconstructed the JS architecture to decouple app functions from the main JS file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag" : "div",
+      "className" : "list-container",
+      "content" : [
+        {
+          "tag" : "div",
+          "className" : "row-header",
+          "content" : {
+            "tag" : "h4",
+            "content" : "V1.1 release notes"
+          }
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : "-"
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Added support for image rendering"
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : "-"
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Added a temporary keyboard shortcut (\"/\") to access the account switch function. This will be deprecated for a command in a broader command line feature in a future release"
+            }
+          ]
+        }        
+      ]
+    },
+    {
+      "tag" : "div",
+      "className" : "list-container",
+      "content" : [
+        {
+          "tag" : "div",
+          "className" : "row-header",
+          "content" : {
+            "tag" : "h4",
+            "content" : "V1.0 release notes"
+          }
+        },
+        {
+          "tag" : "div",
+          "className": "row-container",
+          "content" : [
+            {
+              "tag": "div",
+              "className" : "row-1",
+              "content" : "-"
+            },
+            {
+              "tag": "div",
+              "className": "row-2",
+              "content" : "Initial release"
+            }
+          ]
+        }        
+      ]
+    }
+  ]
+}

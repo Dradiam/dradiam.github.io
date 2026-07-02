@@ -1,7 +1,7 @@
 {
   "main": {
     "deviceDescription": "",
-    "deviceAlias": "Software Engineer",
+    "deviceAlias": "Full-stack Software Engineer",
     "userAccountName": "main",
     "userName": "Aaron (@dradiam)"
   },
@@ -14,7 +14,7 @@
     ],
     "userDetails": {
       "nameDisplay": { 
-        "source": "userName" 
+        "source": "userName"
       },
       "roleDisplay": { 
         "source": "deviceAlias" 
@@ -33,10 +33,10 @@
     }
   },
   "themeSettings": {
-    "theme": "classic",
-    "font": "classic",
-    "colorScheme": "green",
-    "customRGB": ""
+    "themeType": "classique",
+    "fontType": "classique",
+    "colorValue": "green",
+    "customValue": ""
   },
   "fs": {
     "menuID": "menuMain",
@@ -46,7 +46,7 @@
       {
         "menuItemID": "menuToDoList",
         "menuItemLabel": "To-do List",
-        "menuItemType": "txt",
+        "menuItemType": "media",
         "menuItemContent": "content/main/todolist.txt"
       },
       {
@@ -58,13 +58,13 @@
       {
         "menuItemID": "menuExperiences",
         "menuItemLabel": "Work Experience",
-        "menuItemType": "txt",
-        "menuItemContent": "content/main/workexperience.txt"
+        "menuItemType": "html",
+        "menuItemContent": "content/main/workexperience.json"
       },
       {
         "menuItemID": "menuCertifications",
         "menuItemLabel": "Certifications",
-        "menuItemType": "txt",
+        "menuItemType": "media",
         "menuItemContent": "content/main/certifications.txt"
       },
       {

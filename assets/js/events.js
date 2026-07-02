@@ -4,6 +4,7 @@ import { config } from './config.js';
 import { state } from './state.js';
 import { toggleView, updateStatus, setTerminalError } from './ui.js';
 import { fetchAccount, checkAccountExists } from './api.js';
+import { themeLoader } from './picasso.js';
 import { renderMenu } from './engine.js';
 import * as widgetLoader from './widgets.js';
 
@@ -29,7 +30,7 @@ import * as widgetLoader from './widgets.js';
             await init(fullPath);
         } catch (error) {
             console.error("Directory/File Error:", error.message);
-            alert(`Error: The account '${fileName}' is not listed.`);
+            updateStatus("Account not found under given credentials.", config.STATUS_DURATION);
         }
     }
 
@@ -38,12 +39,24 @@ import * as widgetLoader from './widgets.js';
         if (e.key === '/') {
             e.preventDefault();
             promptForAccount();
+        } else if (e.key === 'Escape' || e.key === 'Backspace') {
+            e.preventDefault();
+            handleBack();
         }
     }
 
     export async function init(accPath) {
         try {
             const accdata = await fetchAccount(accPath);
+
+            const { 
+                themeType, 
+                fontType, 
+                colorValue, 
+                customValue
+            } = accdata.themeSettings || {};
+
+            themeLoader(themeType, fontType, colorValue, customValue);
 
             state.clear();
             toggleView('menu');
@@ -59,7 +72,6 @@ import * as widgetLoader from './widgets.js';
             setTerminalError("File system not found. Please contact system administrator.");
         }
     }
-
 
     export function setupEventListeners() {
         dom.contentViewer.addEventListener('click', (e) => {

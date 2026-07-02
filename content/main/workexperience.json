@@ -1,0 +1,296 @@
+{
+  "docMetadata" : {
+    "docName" : "workexperience",
+    "docDateCreated" : "null",
+    "docCreatedBy" : "dradiam"
+  },
+  "docContent" : 
+  [
+    {
+      "tag" : "div",
+      "className" : "card",
+      "content": [
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [   
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "h4",
+                  "content" : "INNOVATIVE INVESTORS & FINANCING CO., INC."
+                }
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "p",
+                  "content" : "IT Programmer Trainee"
+                }
+            },
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "p",
+                  "content" : "August 2025 - February 2026"
+                }
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-columns",
+          "content" : [
+          {
+            "tag" : "p",
+            "content" : "* Trained in low-code solutions to develop and maintain the company's legacy systems"
+          },
+          {
+            "tag" : "p",
+            "content" : "* Created database record automation tools using SQL in compliance for corporate auditory regulations"
+          },
+          {
+            "tag" : "p",
+            "content" : "* Tackled basic hardware/software troubleshooting for company equipment, including basic server troubleshooting"
+          }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "uniPaaS"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "MSSQL"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Windows Server"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Anydesk"
+          }
+        ]
+        }
+      ]
+    },
+    {
+      "tag" : "div",
+      "className" : "card",
+      "content": [
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [   
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "h4",
+                  "content" : "TARLAC STATE UNIVERSITY"
+                }
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "p",
+                  "content" : "Freelance Developer"
+                }
+            },
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "p",
+                  "content" : "April 2024 - May 2024"
+                }
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-columns",
+          "content" : [
+          {
+            "tag" : "p",
+            "content" : "* Helped implement a PHP-based sorting algorithm for a student-led system project/capstone thesis"
+          }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "PHP"
+          }
+        ]
+        }
+      ]
+    },
+    {
+      "tag" : "div",
+      "className" : "card",
+      "content": [
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [   
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "h4",
+                  "content" : "X-ACTIVE CORE TECHNOLOGIES, INC."
+                }
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "p",
+                  "content" : "Software Developer Intern"
+                }
+            },
+            {
+              "tag" : "div",
+              "className" : "card-row",
+              "content" : 
+                {
+                  "tag" : "p",
+                  "content" : "February 2023 - January 2024"
+                }
+            }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-columns",
+          "content" : [
+          {
+            "tag" : "p",
+            "content" : "* Trained in Linux and development of Java-based web application architecture"
+          },
+          {
+            "tag" : "p",
+            "content" : "* Created a mobile application for the company's billing process using Android Studio"
+          }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-rows card-section-badges",
+          "content" : 
+          [          
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Ubuntu"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Java"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Jakarta EE"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Eclipse IDE"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Android Studio"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Java Server Faces"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Java Server Pages"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "Enterprise JavaBeans"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "PrimeFaces"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "dBeaver"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "PostgreSQL"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "JBoss"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "WildFly"
+          }
+          ]
+        }
+      ]
+    }
+  ]
+}

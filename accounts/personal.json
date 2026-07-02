@@ -31,10 +31,10 @@
     }
   },
   "themeSettings": {
-    "theme": "classic",
-    "font": "classic",
-    "colorScheme": "green",
-    "customRGB": ""
+    "themeType": "classique",
+    "fontType": "classique",
+    "colorValue": "green",
+    "customValue": ""
   },
   "fs": {
     "menuID": "personalMain",

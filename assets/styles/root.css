@@ -1,18 +1,33 @@
 
     :root {
 
+        /* COLOR PRESETS */
+
         --green: rgb(74, 197, 95);
-        --teal: rgb(180, 211, 137);
         --amber: rgb(223, 169, 33);
         --blue: rgb(33, 169, 223);
         --white: rgb(255, 255, 255);
-        --custom: rgb(227, 67, 67);
+        --red: rgb(227, 67, 67);
+
+        --yunara: rgb(147, 139, 210);
+        --zeri: rgb(171, 221, 63);
+        --gwen: rgb(90, 222, 246);
+        --seraphine: rgb(248, 134, 188);
+
+        --radgreen: rgb(180, 211, 137);
+
+        /* FONT PRESETS */
 
         --moderne: 'moderne', sans-serif;
-        --classique: 'classique';
+        --classique: 'classique', monospace;
+        --neo-classique: 'neo-classique', monospace;
+        --alternative: 'alternative', monospace;
 
-        --fgDefault: var(--teal);
+        /* SETTINGS */
+
+        --fgDefault: var(--radgreen);
         --bgDefault: hsl(from var(--fgDefault) h s 3%);
+        --fontDefault: var(--main-font-family);
 
     }
 
@@ -24,4 +39,9 @@
     @font-face {
         font-family: 'moderne';
         src: url('../fonts/Noto.ttf') format('truetype');
+    }
+    
+    @font-face {
+        font-family: 'neo-classique';
+        src: url('../fonts/CommitMono.ttf') format('truetype');
     }

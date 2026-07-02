@@ -1,3 +1,4 @@
+
     .card {
 
         display: flex;
@@ -92,4 +93,37 @@
         width: max-content;
 
         flex-shrink: 0;
+    }
+
+
+
+    .list-container {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        margin-bottom: 32px;
+
+    }
+
+    .row-container {
+
+        display: flex;
+        width: 100%;
+        gap: 15px;
+
+    }
+
+    .row-1, .row-2, .row-header {
+
+        display: flex;
+
+        width: max-content;
+        box-sizing: border-box;
+        
+        justify-items: center;
+        align-items: center;
+
     }

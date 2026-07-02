@@ -95,8 +95,8 @@ function renderHTML(htmlData) {
     dom.contentViewer.innerHTML = '';
     
     function createDocElement(item, depth = 1) {
-        if (depth > 5) {
-            console.warn("Maximum nesting depth of 5 exceeded. Skipping deeper elements.");
+        if (depth > 20) {
+            console.warn("Maximum nesting depth of 20 exceeded. Skipping deeper elements.");
             return null;
         }
 
@@ -109,7 +109,7 @@ function renderHTML(htmlData) {
 
         if (item.content !== null && item.content !== undefined) {
             if (Array.isArray(item.content)) {
-                const childrenToProcess = item.content.slice(0, 5);
+                const childrenToProcess = item.content.slice(0, 20);
                 
                 childrenToProcess.forEach(childItem => {
                     const childElement = createDocElement(childItem, depth + 1);

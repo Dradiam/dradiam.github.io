@@ -1,5 +1,5 @@
-
     @import url('root.css');
+    @import url('html.css');
 
     * {
 
@@ -243,102 +243,6 @@
         white-space: pre;
         animation: caretBlink 1s steps(1) infinite;
 
-    }
-
-    .card {
-
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-
-        padding: 12px;
-        gap: 12px;
-        margin-bottom: 20px;
-
-        border: 1px solid var(--fgDefault);
-        border-radius: 6px;
-
-        color: var(--fgDefault);
-
-
-    }
-
-    .card:last-child {
-
-        margin-bottom: 0;
-
-    }
-
-    .card-section-rows {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 100%;
-        gap: 12px;
-        padding: 0 0 8px 0;
-    }
-
-    .card-section-rows:first-child {
-
-        border-bottom: 1px solid var(--fgDefault);
-
-    }
-
-    .card-row {
-
-        flex: 1 1 0px;
-        min-width: 0;
-        max-width: 50%;
-        box-sizing: border-box;
-
-    }
-
-    .card-row:nth-child(even) {
-
-        justify-items: flex-end;
-
-    }
-
-    .card-section-columns {
-
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        width: 100%;
-        height: auto;
-
-    }
-
-    .card-section-badges {
-
-        height: auto !important;
-        width: 100% !important;
-
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: wrap !important;
-        align-items: flex-start !important;
-
-    }
-
-    .card-section-badges .badge {
-
-        flex: 0 0 auto;
-
-    }
-
-    .badge {
-
-        background: var(--fgDefault);
-        color: var(--bgDefault);
-        padding: 2px 4px;
-        border-radius: 2px;
-        font-size: 0.8rem;
-        width: max-content;
-
-        flex-shrink: 0;
     }
 
     @keyframes caretBlink {

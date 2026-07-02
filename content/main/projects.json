@@ -11,43 +11,69 @@
       "content": [
         {
           "tag" : "div",
-          "className" : "card-title",
-          "content" : {
-            "tag" : "h4",
-            "content": "GitHub Pages (you are here)"
-          }
-        },
-        {
-          "tag" : "div",
-          "className" :"card-middle-row",
-          "content" : [
+          "className" : "card-section-rows",
+          "content" : [   
             {
               "tag" : "div",
-              "className" :"field-badges",
+              "className" : "card-row",
               "content" : [
                 {
-                  "tag" : "div",
-                  "className" :"badge",
-                  "content" : "HTML"
-                },
-                {
-                  "tag" : "div",
-                  "className" :"badge",
-                  "content" : "CSS"
-                },
-                {
-                  "tag" : "div",
-                  "className" :"badge",
-                  "content" : "JS"
+                  "tag" : "h4",
+                  "content" : "My GitHub page"
                 }
               ]
             },
             {
               "tag" : "div",
-              "className" :"field-text",
-              "content" : "April 2026"
+              "className" : "card-row",
+              "content" : [
+                {
+                  "tag" : "p",
+                  "content" : "March 2026"
+                }
+              ]
             }
           ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-columns",
+          "content" : [
+          {
+            "tag" : "p",
+            "content" : "You are already here."
+          },
+          {
+            "tag" : "p",
+            "content" : "It uses JavaScript as an engine to render HTML elements and bind data from structured data models."
+          }
+          ]
+        },
+        {
+          "tag" : "div",
+          "className" : "card-section-rows",
+          "content" : [
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "HTML"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "CSS"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "JavaScript"
+          },
+          {
+            "tag" : "div",
+            "className" : "badge",
+            "content" : "JSON"
+          }
+        ]
         }
       ]
     }

@@ -14,7 +14,7 @@
     ],
     "userDetails": {
       "nameDisplay": { 
-        "source": "userName" 
+        "source": "userName"
       },
       "roleDisplay": { 
         "source": "deviceAlias" 
@@ -24,16 +24,10 @@
       "dateDisplay": {
         "dayFormat" : "long",
         "dateFormat": "iso",
-        "dateSeparator": "/",
-        "timeFormat": "HH:mm",
-	"customYearStart" : 2296,
-        "widgetFormat" : ["dateFormat"]
+        "widgetFormat" : ["dayFormat", "dateFormat"]
       },
       "clockDisplay": {
-        "dayFormat" : "long",
-        "dateFormat": "long",
-        "dateSeparator": ".",
-        "timeFormat": "HH:mm",
+        "timeFormat": "hh:mm",
         "widgetFormat" : ["clockFormat"]
       }
     }
@@ -41,7 +35,7 @@
   "themeSettings": {
     "themeType": "classique",
     "fontType": "classique",
-    "colorValue": "radgreen",
+    "colorValue": "green",
     "customValue": ""
   },
   "fs": {
@@ -56,6 +50,12 @@
         "menuItemContent": "content/default/default.txt"
       },
       {
+        "menuItemID": "defaultReleaseNotes",
+        "menuItemLabel": "Release Notes",
+        "menuItemType": "html",
+        "menuItemContent": "content/default/releasenotes.json"
+      },
+      {
         "menuItemID": "defaultFileStorage",
         "menuItemLabel": "File Storage",
         "menuItemType": "menu",
@@ -67,7 +67,7 @@
             "menuItemContent": "content/default/ozy.txt"
           },
           {
-            "menuItemID": "defaultFS002",
+            "menuItemID": "defaultFS001",
             "menuItemLabel": "smrknd.txt",
             "menuItemType": "txt",
             "menuItemContent": "content/default/smrknd.txt"

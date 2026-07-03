@@ -59,13 +59,17 @@ import * as widgetLoader from './widgets.js';
             themeLoader(themeType, fontType, colorValue, customValue);
 
             state.clear();
+
+            dom.terminalMenu.innerHTML = ''; 
+            dom.contentViewer.innerHTML = ''; 
+            
             toggleView('menu');
             
             const fsurl = accdata.fs.menuItemContent;
             const widgets = accdata.widgetSettings.widgetList;
             
             widgetLoader.loadWidgets(widgets, accdata.main, accdata.widgetSettings);
-            renderMenu(fsurl);
+            renderMenu(fsurl, false);
             updateStatus("File system found. Please stand by...", config.STATUS_DURATION);
         } catch (error) {
             console.error(error);

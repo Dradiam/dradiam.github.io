@@ -56,12 +56,6 @@
         "menuItemContent": "content/main/workexperience.json"
       },
       {
-        "menuItemID": "menuCertifications",
-        "menuItemLabel": "Certifications",
-        "menuItemType": "media",
-        "menuItemContent": "content/main/certifications.txt"
-      },
-      {
         "menuItemID": "menuSkills",
         "menuItemLabel": "Skills",
         "menuItemType": "txt",
